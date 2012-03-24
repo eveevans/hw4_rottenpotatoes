@@ -77,10 +77,13 @@ Cucumber Features:
     - !!null 
     - !!null 
     - 1
-    - 2
-    - 2
-    - 2
     - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - 2
+    - 2
     - 2
     - !!null 
     - !!null 
@@ -91,4 +94,112 @@ Cucumber Features:
     - 1
     - !!null 
     - !!null 
-  :created_at: 2012-03-23 15:24:59.921497570 -06:00
+    - 1
+    - 2
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+  :created_at: 2012-03-23 17:15:39.432007470 -06:00
+RSpec:
+  :original_result:
+    /home/eveevans/desarrollo/rails/hw4_rottenpotatoes/app/controllers/application_controller.rb:
+    - 1
+    - 1
+    - !!null 
+    /home/eveevans/desarrollo/rails/hw4_rottenpotatoes/app/helpers/application_helper.rb:
+    - 1
+    - !!null 
+    /home/eveevans/desarrollo/rails/hw4_rottenpotatoes/app/helpers/movies_helper.rb:
+    - 1
+    - !!null 
+    - 1
+    - 0
+    - !!null 
+    - !!null 
+    /home/eveevans/desarrollo/rails/hw4_rottenpotatoes/app/controllers/movies_controller.rb:
+    - 1
+    - !!null 
+    - 1
+    - 0
+    - 0
+    - !!null 
+    - !!null 
+    - !!null 
+    - 1
+    - 0
+    - 0
+    - !!null 
+    - 0
+    - !!null 
+    - 0
+    - !!null 
+    - 0
+    - 0
+    - !!null 
+    - 0
+    - 0
+    - 0
+    - !!null 
+    - !!null 
+    - 0
+    - 0
+    - 0
+    - 0
+    - !!null 
+    - 0
+    - !!null 
+    - !!null 
+    - 1
+    - !!null 
+    - !!null 
+    - !!null 
+    - 1
+    - 0
+    - 0
+    - 0
+    - !!null 
+    - !!null 
+    - 1
+    - 0
+    - !!null 
+    - !!null 
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - !!null 
+    - !!null 
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - !!null 
+    - !!null 
+    - 1
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - 0
+    - 0
+    - 0
+    - !!null 
+    - !!null 
+    - !!null 
+    /home/eveevans/desarrollo/rails/hw4_rottenpotatoes/app/models/movie.rb:
+    - 1
+    - 1
+    - 0
+    - !!null 
+    - !!null 
+    - 1
+    - 0
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+  :created_at: 2012-03-23 18:35:41.094698834 -06:00

@@ -59,10 +59,13 @@ class MoviesController < ApplicationController
   end
 
   def similar_movies
-    id = params[:id] # retrieve movie ID from URI route
-    @movie = Movie.find(id) # look up movie by unique ID
-    @similars = Movie.where("director = ? and id != ?", @movie.director, @movie.id)
-    # debugger
+    # id = params[:id] # retrieve movie ID from URI route
+    # @movie = Movie.find(id) # look up movie by unique ID
+    # @similars = Movie.where("director = ? and id != ?", @movie.director, @movie.id)
+    # # debugger
+    # redirect_to movies_path if @similars.blank?
+    @movie = Movie.find(params[:id])
+    @similars = @movie.similars
     redirect_to movies_path if @similars.blank?
   end
 
